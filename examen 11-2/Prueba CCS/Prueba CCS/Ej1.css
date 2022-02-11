@@ -1,0 +1,16 @@
+h1 {color:teal}
+p strong {color:red;}
+[class="destacado"]{color:orange;}
+#subtitulo {color:blue;}
+p a {color: red;}
+a em {color:blue;}
+[class="especial"]{color:purple;}
+caption {color: blue;}
+th[scope="col"], [scope="row"]{color:red;}
+th[class="especial"]{color:orange;}
+td {color: green;}
+td strong {color: orange;}
+div p a {color:green;}
+#adicional p {color:olive;}
+#adicional #especial {color: fuchsia;}
+table, th, td {border: 1px solid black; border-collapse: collapse;}

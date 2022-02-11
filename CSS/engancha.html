@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Reglas selectores CSS</title>
+        <link rel="stylesheet" type="text/css" href="enganchado.css" />
+    </head>
+
+    <!-- https://uniwebsidad.com/libros/css/capitulo-2/selectores-avanzados -->
+
+    <body>
+        <!-- Reglas de los selectores -->
+        <h1>Titulo</h1>
+        <h2>Titulo2</h2>
+        <h2>Otro titulo2</h2>
+        <h3>Titulo3</h3>
+        <!-- Reglas de los selectores: descendiente -->
+        <span><font color="brown">texto span</font></span> 
+        <p>
+            <span>texto p span</span><br>
+            <span>texto p span 2</span>
+        </p>
+        <p><font color="orange">texto p</font></p>
+
+        <!-- Reglas de los selectores: descendiente y avanzado (hijos y adyacente) -->
+        <p>
+            <a href="#">a dentro de p sin ninguna otra etiqueta</a>
+        </p>
+        <p>
+            <span>
+            <a href="#">a dentro de span (dentro de p)</a>
+            </span>
+        </p>
+        <!-- Reglas de los selectores: clases -->
+        <p class="miestilo">Lorem ipsum dolor sit amet... (texto con<i>miestilo</i>)</p>
+        <p>Nunc sed lacus et est adipiscing accumsan...</p>
+
+        <p class="morado miestilo detalle">Párrafo de texto con varios estilos</p>
+        <!-- Reglas de los selectores: ID -->
+        <p>Primer párrafo</p>
+        <p id="destacado">Segundo párrafo (con id)</p>
+        
+        <!-- Herencia: colisiones-->
+        <p id="especial">Párrafo especial</p>
+    </body>
+</html>

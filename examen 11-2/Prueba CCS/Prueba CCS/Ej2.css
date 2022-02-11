@@ -1,0 +1,9 @@
+a {
+	margin: 1em 0;
+	float: left;
+	clear: left;
+	padding: 2px;
+}
+a:link {color:#CC0000;}
+a:visited {color: #ccc}
+a:hover {color: #FFF; background-color: #CC0000;}

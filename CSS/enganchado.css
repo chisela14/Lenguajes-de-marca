@@ -1,0 +1,22 @@
+*{margin: 10px; padding: 10px;}
+h1,h2,h3 {color: #54ce04; font-weight: normal; font-family: Arial, Helvetica, sans-serif;}
+h1 {font-size: 200;}
+h2 {font-size: 100;}
+h3 {font-size: 50;}
+h1+h2 {color:rgb(0, 255, 242);} /*solo hay un h2 adyacente a h1 | adyacente solo es para abajo, nunca para arriba*/
+p span {color:blue}
+
+p a { color: red; } /*cualquier a dentro de p*/
+/*p > a{color: red; } /*solo las a cuyo padre inmediato es p*/
+/*p * a { color: red; }*/ /*solo las a que esten en cualquier etiqueta dentro de p*/ 
+
+.miestilo{font-size: 30px;} 
+.morado {color:rgb(119, 0, 255)}
+.detalle {font-weight: bold; }
+
+#destacado{color:violet}
+
+/*colisiones*/
+/*p { color: red; }
+p#especial { color: green; } /*se aplica este porque es el más específico
+•{ color: blue; }*/

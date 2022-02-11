@@ -1,0 +1,7 @@
+#contenedor {width: 700px; height: 300px; background-color: green; margin: auto;}
+#cabecera {height: 20%; background-color: greenyellow; margin-top: 5px;}
+#menu {height: 65%; float: left; width: 150px; background-color: yellow; margin-top: 5px;}
+#contenido {height: 65%; float: left; width: 550px; background-color: orange; margin-top: 5px;}
+#principal {float: left; width: 60%; height: 50%; background-color: red; margin-top: 5px; margin-left: 5px;}
+#secundario {float: left; width: 35%; height: 25%; background-color: orangered; margin-top: 5px; margin-left: 5px;}
+#pie {height: 15%; clear: both; background-color: maroon; margin-top: 5px;}
