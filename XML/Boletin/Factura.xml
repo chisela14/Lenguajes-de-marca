@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturas>
+    <factura>
+    <seccion>
+        <titulo>FACTURA nº 999</titulo>
+    </seccion>
+
+    <seccion>
+        <datos>
+            <empresa>Equipos digitales S.L.</empresa>
+            <calle>Av. Valladolid </calle>
+            <ciudadcp>Madrid 28015</ciudadcp>
+            <cif>C.I.F.: Q-9876543</cif>
+            <telefono>teléfono: 91.777.66.88</telefono>
+            <fax>fax: 91.777.66.99</fax>
+        </datos>
+    </seccion>
+
+    <seccion>
+        <titulo>Datos CLIENTE</titulo>
+    </seccion>
+
+    <seccion>
+        <datos>
+            <ncliente>nº cliente: 879</ncliente>
+            <nombre>Nombre: Darío Bueno Gutiérrez</nombre>
+            <direccion>Dirección de envío: Av. Oporto nº7 4ºd</direccion>
+            <poblacion>Población: Madrid</poblacion>
+            <cp>cod. postal: 28043</cp>
+            <provincia>Provincia: Madrid</provincia>
+        </datos>
+    </seccion> 
+
+    <seccion>
+        <titulo>Datos FACTURA</titulo>
+    </seccion> 
+
+    <seccion>
+        <fila>
+            <ref></ref>
+            <descripcion></descripcion>
+            <cant></cant>
+            <precio></precio>
+            <iva></iva>
+            <importe></importe>
+        </fila>
+        <fila>
+            <ref></ref>
+            <descripcion></descripcion>
+            <cant></cant>
+            <precio></precio>
+            <iva></iva>
+            <importe></importe>
+        </fila>
+        <fila>
+            <ref></ref>
+            <descripcion></descripcion>
+            <cant></cant>
+            <precio></precio>
+            <iva></iva>
+            <importe></importe>
+        </fila>
+        <fila>
+            <ref></ref>
+            <descripcion></descripcion>
+            <cant></cant>
+            <precio></precio>
+            <iva></iva>
+            <importe></importe>
+        </fila>
+        <fila>
+            <ref></ref>
+            <descripcion></descripcion>
+            <cant></cant>
+            <precio></precio>
+            <iva></iva>
+            <importe></importe>
+        </fila>
+    </seccion> 
+
+    <seccion>
+    </seccion> 
+    <seccion>
+    </seccion> 
+    <seccion>
+    </seccion> 
+       
+    </factura>
+</facturas>

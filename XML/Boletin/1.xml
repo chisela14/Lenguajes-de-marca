@@ -1,0 +1,21 @@
+<!--Enunciado-->
+<?xml version="1.0" encoding="UTF-8"> <!--Falta ? antes de cerrar la etiqueta-->
+< libros> <!--Sobra el espacio-->
+<libro>
+< nombre>El diario de una princesa muerta< nombre\> <!--Sobra el espacio, etiqueta nombre mal cerrada (</nombre>)-->
+</libro>
+<libro>
+<nombre>Lo que nunca te conté<nombre\> <!--Etiqueta nombre mal cerrada (</nombre>)-->
+</libro>
+< /libros> <!--Sobra el espacio-->
+
+<!-- Versión corregida-->
+<?xml version="1.0" encoding="UTF-8"?> 
+<libros> 
+<libro>
+<nombre>El diario de una princesa muerta</nombre> 
+</libro>
+<libro>
+<nombre>Lo que nunca te conté</nombre> 
+</libro>
+</libros>

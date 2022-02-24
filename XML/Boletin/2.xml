@@ -1,0 +1,28 @@
+<!--Enunciado-->
+<?xml version="1.0" encoding="UTF-8"?>
+<numeros>
+<1 letra="u" letra="n" letra="o">1</> <!--La etiqueta empieza por número, tiene más de un valor y no cierra la etiqueta-->
+<2 letra="d" letra="o" letra="s">22</> <!--La etiqueta empieza por número, tiene más de un valor y no cierra la etiqueta-->
+<6 letra="s" letra="e" letra="i" letra="s">666666</> <!--La etiqueta empieza por número, tiene más de un valor y no cierra la etiqueta-->
+</numeros>
+<!-- Versión corregida-->
+<?xml version="1.0" encoding="UTF-8"?>
+<ejercicio>
+<numeros>
+    <numero>1</numero> 
+    <numero>22</numero> 
+    <numero>666666</numero> 
+</numeros>
+<letras>
+    <letra>u</letra>
+    <letra>n</letra>
+    <letra>o</letra>
+    <letra>d</letra>
+    <letra>o</letra>
+    <letra>s</letra>
+    <letra>s</letra>
+    <letra>e</letra>
+    <letra>i</letra>
+    <letra>s</letra>
+</letras>
+</ejercicio>
