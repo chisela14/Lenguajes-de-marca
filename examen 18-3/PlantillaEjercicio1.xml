@@ -1,0 +1,36 @@
+<!-- Enunciado -->
+<?xml version="1.0" encoding="UTF-8"/> <!--La etiqueta cierra con ? en vez de /-->
+<!--No tiene etiqueta raíz-->
+< futbolista id=”1”> <!--Sobra un espacio, las comillas son incorrectas-->
+	<equipo Betis ></equipo> <!--La etiqueta no cierra donde debería-->
+	<procedencia> ESP < /procedencia> <!--Sobra un espacio-->
+	<nombre>Joaquín</nombre>
+	<apellidos>Sánchez</apellido> <!--La etiqueta de cierre no tiene el mismo nombre que la de apertura-->
+	<http://>joaquinsanchez.com< /http://> <!--Sobra un espacio, la etiqueta no puede contener las barras / o :-->
+</futbolista id> <!--Sobra el id-->
+< futbolista id=”2”> <!--Sobra un espacio-->
+	<equipo = "Sevilla" ></equipo> <!--El valor debe ir entre etiquetas-->
+	<procedencia> <ESP /procedencia> <!--El valor no va en la etiqueta de cierre (y sobra un espacio)-->
+	<nombre>Jesús</nombre>
+	<apellidos>Navas</apellido> <!--La etiqueta de cierre no tiene el mismo nombre que la de apertura-->
+	<http://>jesusnavas.org< /http://> <!--Sobra un espacio, la etiqueta no puede contener las barras / o :-->
+</futbolista id> <!--Sobra el id-->
+
+<!--Corregido-->
+<?xml version="1.0" encoding="UTF-8"?> 
+<futbolistas>
+	<futbolista id="1"> <!--Podría omitirse el id y ponerse como atributo-->
+		<equipo>Betis</equipo> 
+		<procedencia>ESP</procedencia>
+		<nombre>Joaquín</nombre>
+		<apellidos>Sánchez</apellidos>
+		<http>joaquinsanchez.com</http>
+	</futbolista>
+	<futbolista id="2">
+		<equipo>Sevilla</equipo>
+		<procedencia>ESP</procedencia>
+		<nombre>Jesús</nombre>
+		<apellidos>Navas</apellidos>
+		<http>jesusnavas.org</http>
+	</futbolista>
+</futbolistas>

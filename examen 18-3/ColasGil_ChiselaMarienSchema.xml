@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Enlace al schema-->
+<BDAltas xsi:noNamespaceXchemaLocation="ColasGil_ChiselaMarien.xsd">
+	<cliente>
+		<usuario>Andrés Alvarez</usuario>
+		<telefono>955 55 66 55</telefono>
+		<nick>aalvarez</nick>
+		<contrasena>34524256</contrasena>
+		<mail>aalvarez@qwerty.com</mail>
+		<fecha>1/07/2019</fecha>
+		<hora>23:55</hora>
+		<producto>Creación Web</producto>
+	</cliente>
+	<cliente>
+		<usuario>María Muñoz</usuario>
+		<telefono>618 74 18 88</telefono>
+		<nick>mmuñoz</nick>
+		<contrasena>micasa3456</contrasena>
+		<mail>ammuñoz@qwerty.com</mail>
+		<fecha>5/07/2019</fecha>
+		<hora>02:25</hora>
+		<producto>Servicio Internet</producto>
+	</cliente>
+	<cliente>
+		<usuario>Manuel Sánchez</usuario>
+		<telefono>645 64 74 47</telefono>
+		<nick>msanchez</nick>
+		<contrasena>****dfgre</contrasena>
+		<mail>msanchez@qwerty.com</mail>
+		<fecha>7/07/2019</fecha>
+		<hora>11:43</hora>
+		<producto>Netflix</producto>
+	</cliente>
+</BDAltas>

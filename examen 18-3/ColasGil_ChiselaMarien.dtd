@@ -1,0 +1,14 @@
+<!DOCTYPE BDAltas [
+<!ELEMENT BDAltas (cliente)*>
+<!ELEMENT cliente (usuario|telefono|nick|contrasena|mail|fecha|hora|producto)*>
+<!ELEMENT usuario (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT nick (#PCDATA)>
+<!ELEMENT contrasena (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT producto (#PCDATA)>
+]
+
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+    <cliente>
+        <empresa>Jacaranda</empresa>
+        <cif>1458B</cif>
+        <direccion>Calle Real 22</direccion>
+        <telefono>978111222</telefono>
+        <correoPersonal>a@gmail.com</correoPersonal>
+        <web>iesjacaranda.com</web>
+        <perfilFb>IES jacaranda</perfilFb>
+        <perfilTw>@jacaranda</perfilTw>
+        <contactos>
+            <contacto>
+                <nombre>Juan Carlos</nombre>
+                <apellidos>
+                    <apellido>Calero</apellido>
+                </apellidos>
+                <telefono>600111222</telefono>
+            </contacto>
+        </contactos>
+       <correoProfesional>a@iesjacaranda.es</correoProfesional>
+    </cliente>
+    <cliente>
+        <empresa>Jacaranda</empresa>
+        <cif>1898B</cif>
+        <direccion>Calle Real 24</direccion>
+        <telefono>978111333</telefono>
+        <correoPersonal>b@gmail.com</correoPersonal>
+        <web>iesjacaranda.com</web>
+        <perfilFb>IES jacaranda2</perfilFb>
+        <perfilTw>@jacaranda2</perfilTw>
+        <contactos>
+            <contacto>
+                <nombre>Juan Carlos</nombre>
+                <apellidos>
+                    <apellido>Calero</apellido>
+                </apellidos>
+                <telefono>600111222</telefono>
+            </contacto>
+            <contacto>
+                <nombre>Juan Carlos</nombre>
+                <apellidos>
+                    <apellido>Sanchez</apellido>
+                </apellidos>
+                <telefono>600111333</telefono>
+            </contacto>
+        </contactos>
+       <correoProfesional>b@iesjacaranda.es</correoProfesional>
+    </cliente>
+</clientes>

@@ -1,0 +1,36 @@
+{"BDAltas": 
+  {
+  "cliente": [
+    {
+      "usuario":"Andrés Alvarez",
+      "telefono":"955 55 66 55",
+      "nick":"aalvarez",
+      "contrasena":34524256,
+      "mail":"aalvarez@qwerty.com",
+      "fecha":"1/07/2019",
+      "hora":"23:55",
+      "producto":"Creación Web"
+    },
+    {
+      "usuario":"María Muñoz",
+      "telefono":"618 74 18 88",
+      "nick":"mmuñoz",
+      "contrasena":"micasa3456",
+      "mail":"ammuñoz@qwerty.com",
+      "fecha":"5/07/2019",
+      "hora":"02:25",
+      "producto":"Servicio Internet"
+    },
+    {
+      "usuario":"Manuel Sánchez",
+      "telefono":"645 64 74 47",
+      "nick":"msanchez",
+      "contrasena":"****dfgre",
+      "mail":"msanchez@qwerty.com",
+      "fecha":"7/07/2019",
+      "hora":"11:43",
+      "producto":"Netflix"
+    }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema>
+    <xs:element name="BDAlta">
+        <xs:maxOccurs value="unbounded"/>
+        <xs:complexType>
+            <xs:sequence>
+            <xs:element name=”cliente” type=”tipoCliente”/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="tipoCliente">
+        <xs:all>
+            <xs:element name=”usuario” type=”xs:string”/>
+            <xs:element name=”telefono” type=”xs:string”/>
+            <xs:element name=”nick” type=”xs:string”/>
+            <xs:element name=”contrasena” type=”xs:string”/>
+            <xs:element name=”mail” type=”xs:string”/>
+            <xs:element name=”fecha” type=”xs:date”/>
+            <xs:element name=”hora” type=”xs:time”/>
+            <xs:element name=”producto” type=”xs:string”/>
+        </xs:all>
+    </xs:complexType>
+</xs:schema>
+
