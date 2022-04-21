@@ -1,3 +1,19 @@
+/*Cómo debería estructurarse:
+-Bloque 0: declarar variables y constantes (aunque se pueden declarar variables después)
+-B1: cómo va a funcionar el jugador -> resultado puntuación del jugador
+    (va pidiendo números, se puede pasar)
+-B2: cómo va a funcionar la máquina (dealer) -> resultado puntuación del dealer
+    (se le asignan números, no se puede pasar) 
+-B3: comparativa para saber quién gana el juego
+    1.RPJ>RPD ¿?
+        -Si RPJ > 21 = Jugador pierde
+        -Else = Jugador gana 
+    2. RPD>RPJ 
+        -Jugador pierde
+    3. RPD=RPJ
+        -A nuestra elección
+*/
+
 //cartas
 let palos = ["Corazones", "Treboles", "Diamantes", "Picas"];
 let valores = [
@@ -15,6 +31,7 @@ let valores = [
   "Tres",
   "Dos"
 ];
+
 //enlace html
 let textArea = document.getElementById("texto");
 let newGameButton = document.getElementById("nuevaPartida");
