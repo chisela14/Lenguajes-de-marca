@@ -17,3 +17,4 @@ for(const letra of palabra){
 }
 
 console.log(`Tu palabra tiene ${vocales} vocales, ${consonantes} consonantes y tiene un total de ${palabra.length} letras.`);
+//mejor con un array para las vocales

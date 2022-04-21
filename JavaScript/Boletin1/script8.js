@@ -10,4 +10,7 @@ const dni = prompt('Introduce tu DNI (sin letra)')
 if(dni.length==8 && parseInt(dni)>0){
     let letra = dni%23
     console.log(`Tu DNI completo es ${dni}${letras[letra]}`);
+}else{
+    console.log("Datos no válidos");
 }
+//se podría cambiar el else de datos no válidos para que vuelva a pedir el dni

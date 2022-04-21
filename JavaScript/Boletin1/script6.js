@@ -11,5 +11,4 @@ while(suma<=50){
     contador++
 }
 
-console.log(`La suma total es de: ${suma}`);
-console.log(`El total de números introducidos es: ${contador}`);
+document.getElementById("resultado").innerHTML=`La suma total es: ${suma}, y el total de números introducidos es: ${contador}`;

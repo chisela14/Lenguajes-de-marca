@@ -11,7 +11,8 @@ let pares = []
 let impares = []
 
 for(const number of numeros){
-    let random = Math.round(Math.random() * 10 + 1)
+    //1*10 podría dar 11 con el +1, así que hay que poner *9
+    let random = Math.round(Math.random() * 9 + 1)
     const result = number * random
 
     console.log(`${number} x ${random} = ${result}`);
