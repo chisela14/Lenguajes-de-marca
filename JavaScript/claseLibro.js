@@ -1,43 +1,3 @@
-//Ejercicios básicos Objetos(42) - final
-/*
-//Objetos
-const persona = {
-    nombre:"Pablo",
-    edad:20,
-    hijos:["Batman", "Ironman", "Yoda", "Hulk"]
-}
-for (const key in persona.hijos){
-    console.log(persona.hijos[key]);
-}
-console.log(`Hola ${persona.nombre}. Tienes ${persona.edad} años y tus hijos se llaman ${persona.hijos}.`);
-*/
-/*
-//Funciones
-function saludar(){
-    console.log('Hola desde una función')
-}
-for (let i=0;i<6;i++){
-    console.log(saludar())
-}
-
-function saludarUsuario(nombre){
-    console.log(`Hola ${nombre} desde una función`)
-}
-console.log(saludarUsuario("Chisela"))
-
-function suma(num1, num2){
-    let resultado;
-    if(num1===3){
-        resultado = num1+num2;
-    }else{
-        resultado = num1;
-    }
-}
-console.log(suma(3,2));
-console.log(suma(1,2));
-*/
-
-//Orientado a objetos
 class Libro{
     constructor(titulo, autor, anyo, genero){
         this.titulo = titulo
@@ -65,7 +25,6 @@ for(let i=1; i<4; i++){
     }
     let anyo = parseInt(prompt("Introduce el año"))
     while (isNaN(anyo)===true && anyo.length != 4){
-        //MAL pilla cualquier numero
         anyo = parseInt(prompt("Introduce un número de cuatro dígitos para el año"))
     }
     let genero = prompt("Introduce el genero")
