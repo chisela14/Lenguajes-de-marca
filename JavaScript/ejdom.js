@@ -5,24 +5,18 @@
 
 //añadir
 function agregar(){
-    //conseguir lista
-    let lista = document.getElementById('lista')
-    //consigo texto
-    let input = document.getElementById("nuevo");
-    //creo nodo, texto para el nodo y lo añado
     let nuevoCampo = document.createElement("li");
-    let textoCampo = document.createTextNode(input.value);
-    nuevoCampo.appendChild(textoCampo);
+    let input = document.getElementById("nuevo").value;
+    let texto = document.createTextNode(input);
+    nuevoCampo.appendChild(texto);
+    let lista = document.getElementById('lista')
     lista.appendChild(nuevoCampo);
 }
 
 //eliminar
 function eliminar(){
-    //conseguir lista
     let lista = document.getElementById('lista')
-    //consigo primer elemento(el que se borra)
-    let primero = lista.firstElementChild;
-    //borro
-    lista.removeChild(primero);
+    let elementoBorrar = document.getElementsByTagName("li")[0];
+    lista.removeChild(elementoBorrar);
 }
 
