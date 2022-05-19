@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ordenado{
+            width: 500px;
+            height: 50px;
+            border-radius: 5px;
+            border-color: black;
+            background-color: lightgrey;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <script src="ordenar.js"></script>
+    <label for="numeros">Introduzca los números separados por comas: </label>
+    <input type="text" name="numeros" id="numeros">
+    <input id="ordenar" type="button" value="ordenar" onclick="ordenar();">
+    <div class="ordenado" id="ordenado"></div>
+</body>
+</html>

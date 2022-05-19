@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .saludo{
+            width: 500px;
+            height: 50px;
+            border-radius: 5px;
+            border-color: black;
+            background-color: lightgrey;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <script src="saludo.js"></script>
+    <label for="nombre"> Nombre: 
+    <input type="text" name="nombre" id="nombre">
+    </label>
+    <label for="apellidos"> Apellidos: 
+    <input type="text" name="apellidos" id="apellidos">
+    </label>
+    <input id="saludar" type="button" value="saludar" onclick="saludar();">
+    <div class="saludo" id="saludo"></div>
+</body>
+</html>
