@@ -32,7 +32,7 @@ function cambiarTabla(){
     let posicion = document.getElementById("posicion").value;
     if (parseInt(posicion)!=0){
         let fila = filas[parseInt(posicion)]
-        //si la fila tiene algún valor borra la fila 
+        //Si la fila que obtenemos con la posición tiene algún valor borra la fila.
         if (fila != null){
             fila.remove();
         }

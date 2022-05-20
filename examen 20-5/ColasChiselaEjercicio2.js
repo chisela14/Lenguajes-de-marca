@@ -1,4 +1,4 @@
-//función para añadir elementos a la lista
+//Función para añadir elementos a la lista, teniendo en cuenta la posición.
 function agregar(){
     let nuevoCampo = document.createElement("li");
     let input = document.getElementById("nuevo").value;
@@ -10,7 +10,7 @@ function agregar(){
     lista.insertBefore(nuevoCampo, campoReferencia);
 }
 
-//funció para eliminar elementos de la lista
+//Función para eliminar elementos de la lista según su posición.
 function eliminar(){
     let posicion = document.getElementById("posicion").value;
     let elementoBorrar = document.getElementsByTagName("li")[posicion-1];
