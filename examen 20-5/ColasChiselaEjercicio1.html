@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 1 examen</title>
+    </head>
+    <body>
+        <script src="ColasChiselaEjercicio1.js"></script>
+        <table border="1" id="tabla" width="800" height="200" align="center">
+            <caption><b>Liga BBVA. Clasificación.</b></caption>
+            <tr>
+                <td><b>Posición</b></td>
+                <td><b>Equipo</b></td>
+                <td><b>Puntos</b></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>FC Barcelona</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Real Madrid</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Atlético de Madrid</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Sevilla FC</td>
+                <td>9</td>
+            </tr>
+        </table>
+        <p align="center">Posición <input type="text" id="posicion" size="15">
+            Equipo <input type="text" id="equipo" size="15">
+            Puntos <input type="text" id="puntos" size="15">
+            <button type="submit" onclick="cambiarTabla();">Aplicar</button>
+        </p>
+        <!--He añadido un párrafo para mostrar los mensajes de error-->
+        <p id="error" align="center"></p>
+    </body>
+</html>
